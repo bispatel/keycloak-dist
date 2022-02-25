@@ -311,7 +311,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.authConfig = {
           //issuer:  'http://localhost:8080/auth/realms/heroes',
           issuer: _environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].keycloak_issuer,
-          redirectUri: _environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].apiURL + "/heroes",
+          redirectUri: window.location.origin + "/heroes",
           //clientId: 'spa-heroes',
           clientId: _environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].keycloak_clientId,
           //dummyClientSecret: '2ea5dc66-8e1c-4e7c-aac0-52a42594a6ac',
