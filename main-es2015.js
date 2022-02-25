@@ -181,7 +181,7 @@ let AppComponent = class AppComponent {
         this.authConfig = {
             //issuer:  'http://localhost:8080/auth/realms/heroes',
             issuer: _environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].keycloak_issuer,
-            redirectUri: window.location.origin + "/heroes",
+            redirectUri: _environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].apiURL + "/heroes",
             //clientId: 'spa-heroes',
             clientId: _environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].keycloak_clientId,
             //dummyClientSecret: '2ea5dc66-8e1c-4e7c-aac0-52a42594a6ac',
